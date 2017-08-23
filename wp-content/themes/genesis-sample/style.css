@@ -159,6 +159,7 @@ body > div {
 body {
 	background-color: #eee;
 	color: #333;
+	/*color: red;*/
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 20px;
 	font-size: 2rem;
