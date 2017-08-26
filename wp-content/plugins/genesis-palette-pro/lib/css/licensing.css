@@ -1,0 +1,50 @@
+.gppro-license-keys-block .gppro-license-key-label .gppro-license-key-label-info {
+  display: inline-block;
+  width: 100%;
+  font-weight: normal;
+  font-size: 85%; }
+.gppro-license-keys-block .gppro-license-key-single.gppro-license-key-core-single {
+  position: relative; }
+  .gppro-license-keys-block .gppro-license-key-single.gppro-license-key-core-single .password-toggle {
+    font-size: 24px;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    position: absolute;
+    left: 330px;
+    color: #aaa;
+    padding: 3px 0; }
+    .gppro-license-keys-block .gppro-license-key-single.gppro-license-key-core-single .password-toggle:hover {
+      color: #999; }
+    .gppro-license-keys-block .gppro-license-key-single.gppro-license-key-core-single .password-toggle.password-visible {
+      color: #0088cc; }
+      .gppro-license-keys-block .gppro-license-key-single.gppro-license-key-core-single .password-toggle.password-visible:hover {
+        color: #0099cc; }
+    .gppro-license-keys-block .gppro-license-key-single.gppro-license-key-core-single .password-toggle.password-toggle-hide {
+      display: none; }
+.gppro-license-keys-block .gppro-license-row-field {
+  display: inline-block;
+  vertical-align: middle; }
+.gppro-license-keys-block .gppro-license-row-input {
+  margin-right: 5px;
+  padding: 5px; }
+  .gppro-license-keys-block .gppro-license-row-input.gppro-license-core-valid {
+    border-color: #659d32;
+    border-color: rgba(101, 157, 50, 0.5);
+    -webkit-box-shadow: 0 0 2px 2px rgba(101, 157, 50, 0.6);
+    box-shadow: 0 0 2px 2px rgba(101, 157, 50, 0.6); }
+  .gppro-license-keys-block .gppro-license-row-input.gppro-license-core-invalid {
+    border-color: #e50000;
+    border-color: rgba(229, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 2px 1px rgba(229, 0, 0, 0.2);
+    box-shadow: 0 0 2px 1px rgba(229, 0, 0, 0.2); }
+.gppro-license-keys-block #gppro-license-core::-ms-reveal,
+.gppro-license-keys-block #gppro-license-core::-ms-clear {
+  display: none !important; }
+.gppro-license-keys-block .gppro-license-field-message {
+  font-style: italic; }
+.gppro-license-keys-block .gppro-license-spinner {
+  float: none;
+  margin: 0 10px; }
+  .gppro-license-keys-block .gppro-license-spinner.gppro-license-spinner-display {
+    visibility: visible; }
